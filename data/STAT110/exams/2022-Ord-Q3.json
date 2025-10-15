@@ -1,0 +1,18 @@
+{
+  "course": "STAT110",
+  "category": "exam",
+  "source_id": "2022-Ord-Q3",
+  "title": "Bayes theorem with screening test",
+  "content_paraphrase": "A medical screening test with stated sensitivity and specificity is used in a population where disease prevalence is low. Compute the positive predictive value after one positive test and comment on why it differs from sensitivity.",
+  "solution_outline": "Use Bayes' theorem with total probability in the denominator. Express the posterior in terms of prevalence, sensitivity, and false positive rate, then evaluate numerically.",
+  "theory_refs": [
+    "Bayes' theorem",
+    "Law of total probability"
+  ],
+  "tags": [
+    "conditional-probability",
+    "bayes",
+    "predictive-value"
+  ],
+  "source_url": ""
+}

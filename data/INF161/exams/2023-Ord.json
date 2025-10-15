@@ -1,0 +1,19 @@
+{
+  "course": "INF161",
+  "category": "exam",
+  "source_id": "2023-Ord-Q5",
+  "title": "Evaluating a classification pipeline",
+  "content_paraphrase": "Scenario describes a binary classifier with separate train, validation, and test splits. Students must interpret confusion matrices, discuss class imbalance, and recommend adjustments to improve performance on minority cases.",
+  "solution_outline": "Compute precision and recall for each class, highlight imbalance effects, propose resampling or adjusted decision thresholds, and mention cross-validation for robustness.",
+  "theory_refs": [
+    "Confusion matrix",
+    "Precision and recall",
+    "Model validation"
+  ],
+  "tags": [
+    "classification",
+    "model-evaluation",
+    "bias-variance"
+  ],
+  "source_url": ""
+}

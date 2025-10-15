@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Academic Resource Item",
+  "type": "object",
+  "required": [
+    "course",
+    "category",
+    "source_id",
+    "title",
+    "content_paraphrase",
+    "tags"
+  ],
+  "properties": {
+    "course": {
+      "type": "string",
+      "description": "Course code, e.g. MAT221"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["exam", "slide", "note"]
+    },
+    "source_id": {
+      "type": "string",
+      "description": "Unique identifier, e.g. 2019-Ord-Q3 or Lecture5"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content_paraphrase": {
+      "type": "string",
+      "description": "Brief paraphrased version (≤120 words)"
+    },
+    "solution_outline": {
+      "type": "string"
+    },
+    "theory_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_url": {
+      "type": "string",
+      "description": "Link to public material if allowed"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+{
+  "course": "MAT221",
+  "category": "exam",
+  "source_id": "2019-Ord-Q3",
+  "title": "Improper integral with convergence test",
+  "content_paraphrase": "Given an improper integral of a rational function over [1, ∞), determine whether it converges and compute the value when it does. Emphasises applying comparison tests and partial fractions.",
+  "solution_outline": "Check convergence near infinity by comparing with 1/x^2. Split the fraction, integrate term by term, and evaluate the limit.",
+  "theory_refs": [
+    "Improper integrals",
+    "Comparison test",
+    "Partial fraction decomposition"
+  ],
+  "tags": [
+    "analysis",
+    "improper-integral",
+    "comparison-test"
+  ],
+  "source_url": ""
+}

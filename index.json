@@ -1,0 +1,61 @@
+[
+  {
+    "course": "INF161",
+    "category": "exam",
+    "source_id": "2023-Ord-Q5",
+    "title": "Evaluating a classification pipeline",
+    "content_paraphrase": "Scenario describes a binary classifier with separate train, validation, and test splits. Students must interpret confusion matrices, discuss class imbalance, and recommend adjustments to improve performance on minority cases.",
+    "solution_outline": "Compute precision and recall for each class, highlight imbalance effects, propose resampling or adjusted decision thresholds, and mention cross-validation for robustness.",
+    "theory_refs": [
+      "Confusion matrix",
+      "Precision and recall",
+      "Model validation"
+    ],
+    "tags": [
+      "classification",
+      "model-evaluation",
+      "bias-variance"
+    ],
+    "source_url": "",
+    "_source_path": "data/INF161/exams/2023-Ord.json"
+  },
+  {
+    "course": "MAT221",
+    "category": "exam",
+    "source_id": "2019-Ord-Q3",
+    "title": "Improper integral with convergence test",
+    "content_paraphrase": "Given an improper integral of a rational function over [1, ∞), determine whether it converges and compute the value when it does. Emphasises applying comparison tests and partial fractions.",
+    "solution_outline": "Check convergence near infinity by comparing with 1/x^2. Split the fraction, integrate term by term, and evaluate the limit.",
+    "theory_refs": [
+      "Improper integrals",
+      "Comparison test",
+      "Partial fraction decomposition"
+    ],
+    "tags": [
+      "analysis",
+      "improper-integral",
+      "comparison-test"
+    ],
+    "source_url": "",
+    "_source_path": "data/MAT221/exams/2019-Ord.json"
+  },
+  {
+    "course": "STAT110",
+    "category": "exam",
+    "source_id": "2022-Ord-Q3",
+    "title": "Bayes theorem with screening test",
+    "content_paraphrase": "A medical screening test with stated sensitivity and specificity is used in a population where disease prevalence is low. Compute the positive predictive value after one positive test and comment on why it differs from sensitivity.",
+    "solution_outline": "Use Bayes' theorem with total probability in the denominator. Express the posterior in terms of prevalence, sensitivity, and false positive rate, then evaluate numerically.",
+    "theory_refs": [
+      "Bayes' theorem",
+      "Law of total probability"
+    ],
+    "tags": [
+      "conditional-probability",
+      "bayes",
+      "predictive-value"
+    ],
+    "source_url": "",
+    "_source_path": "data/STAT110/exams/2022-Ord-Q3.json"
+  }
+]
