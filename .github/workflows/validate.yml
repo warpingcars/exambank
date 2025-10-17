@@ -1,0 +1,26 @@
+name: Validate and Build
+
+on: [push, pull_request]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate JSON
+        run: |
+          python - <<'PY'
+import glob
+import json
+
+for path in glob.glob('data/**/*.json', recursive=True):
+    with open(path, encoding='utf-8') as handle:
+        json.load(handle)
+
+print('JSON OK')
+PY
+      - name: Build Lyra Dashboard
+        run: python scripts/build_lyra.py || true

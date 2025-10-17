@@ -1,4 +1,6 @@
-# warpe-exambank
+# exambank
+
+Parafrasert studie/eksamensbank for UiB-fag (lesbar av GPT-agenter).
 
 Open, paraphrased academic resource bank for UiB courses MAT221, STAT110, and INF161.  
 The repository is designed so GPT agents can consume curated JSON entries that describe official, public course materials without exposing private work.
@@ -30,3 +32,11 @@ After updating, push to GitHub so the index is available at:
 ```
 https://raw.githubusercontent.com/<username>/warpe-exambank/main/index.json
 ```
+
+## Lyra
+
+This repository also powers the Lyra study hub. See `docs/LYRA.md` for the manifest and `docs/LYRA-DASHBOARD.md` for the generated progress dashboard.
+
+## Raw index
+
+- [index.json](./index.json)
