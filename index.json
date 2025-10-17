@@ -40,6 +40,89 @@
     "_source_path": "data/MAT221/exams/2019-Ord.json"
   },
   {
+    "course": "MAT221",
+    "term": "V",
+    "year": 2018,
+    "title": "Eksamen V18 – Diskret matematikk",
+    "topics": [
+      "Tallteori og φ(m)",
+      "Modular aritmetikk og Diofantiske ligninger",
+      "Grafteori (bipartitt, Hamilton/Euler, planaritet, K3,3)",
+      "SDR/Hall-intuisjon",
+      "Inklusjon–eksklusjon",
+      "Rekursjon og genererende funksjoner",
+      "Kombinatorikk (oppsett/turnering)"
+    ],
+    "format": "6 oppgaver; både regning og korte bevis; kalkulator tillatt iht. fakultetets regler.",
+    "content_paraphrase": "Klassisk miks: faktorisering/gcd, inverser i Z_n, Diofantiske ligninger; φ(m) og enkel anvendelse. Grafoppgaver om bipartitthet, Hamilton/Euler og planaritet (K3,3-argument). SDR-idé via enkel Hall-betingelse. IE-telleoppgave. Lineær rekursjon med GF. Kombinatorikk rundt gruppespill/paring.",
+    "lang": "no",
+    "category": "exams",
+    "_source_path": "data/MAT221/exams/MAT221-V18.json"
+  },
+  {
+    "course": "MAT221",
+    "term": "V",
+    "year": 2019,
+    "title": "Eksamen V19 – Diskret matematikk",
+    "topics": [
+      "Rekursjoner (lukkede former) og genererende funksjoner",
+      "Tallsystemer (binær↔desimal)",
+      "Eulers φ-funksjon og Eulers teorem",
+      "Spesialfamilier av grafer (S_{m,k}) – sammenheng/Hamilton/Euler/planar",
+      "Tallteori (gcd, Diofantiske ligninger)",
+      "Kombinatorikk (strikk-trekanter)",
+      "Gradsekvenser/realiserbarhet"
+    ],
+    "format": "7 oppgaver; vekt på rekursjon/GF og konstruktive grafspørsmål.",
+    "content_paraphrase": "Starter med eksplisitte løsninger av rekursjoner og tilhørende GF. Binær↔desimal. φ(100), φ(1000) og bruk av Eulers teorem til siste siffer. Graffamilien S_{m,k}: når er den sammenhengende, og hvilke klassiske egenskaper har den. GCD/Diofantine. Telleoppgaver på trekant-ramme. Sjekk av gradsekvenser, inkl. moteksempler.",
+    "lang": "no",
+    "category": "exams",
+    "_source_path": "data/MAT221/exams/MAT221-V19.json"
+  },
+  {
+    "course": "MAT221",
+    "term": "V",
+    "year": 2020,
+    "title": "Eksamen V20 – Diskret matematikk",
+    "topics": [
+      "Tallteori (gcd/lcm, Diofantiske)",
+      "Minimalt utspennende tre (definisjon + algoritme)",
+      "Kombinatorikk på ord og IE",
+      "Grafteori (Eulerløype, kromatisk tall, Eulers formel)",
+      "SDR og Hall (M-alternerende stier)",
+      "Modular aritmetikk i Z_14",
+      "Rekursjoner og genererende funksjoner",
+      "Turneringsoppsett og blokk-design"
+    ],
+    "format": "8 oppgaver; bredde fra tallteori til design; flere ‘metodeforklar’-delspørsmål.",
+    "content_paraphrase": "GCD/LCM og Diofantine med parameterløsninger. MST med konkret vektet graf og algoritmevalg. Ord-telleoppgaver og IE-varianter. Grafegenskaper inkl. Euler-løyper, farging og bekreftelse av Eulers formel. Hall’s teorem anvendt med M-alternerende stier. Ligninger i Z_14 og φ(100). Lineære rekursjoner + GF. Turneringer og (v,k,λ)-design/STS.",
+    "lang": "no",
+    "category": "exams",
+    "_source_path": "data/MAT221/exams/MAT221-V20.json"
+  },
+  {
+    "course": "MAT221",
+    "term": "V",
+    "year": 2021,
+    "title": "Eksamen V21 – Diskret matematikk",
+    "topics": [
+      "Trær (isomorfiklasser, gradbetingelser)",
+      "Kromatiske tall for standardgrafer",
+      "Invertible elementer og ligninger i Z_16",
+      "φ(p^n)-formel og siste siffer i base 16",
+      "GCD via Euklid",
+      "Rekursjon + GF med ikke-homogen høyreside",
+      "Planaritet (K_{3,4}), bipartit, (semi)-Euler, Hamiltonsk",
+      "Kombinatorikk + IE-variant",
+      "SDR-eksempler"
+    ],
+    "format": "8 oppgaver; blandede korte resonnementer og beregninger.",
+    "content_paraphrase": "Klassifisering av trær med 5 noder og umulige gradmønstre. Kromatiske tall for K_n, K_{n,m} og sykluser. Inverse og kongruenser i Z_16; φ(p^n). Base-16 siste siffer. Euklid på konkrete tall. Lineær rekursjon + GF mot 2^n-kilde. Planaritetsvurdering via K_{3,4}; bipartitthet, (semi)-Euler, ikke-Hamilton. Telling med restriksjoner og IE. SDR-familier med/uten løsning.",
+    "lang": "no",
+    "category": "exams",
+    "_source_path": "data/MAT221/exams/MAT221-V21.json"
+  },
+  {
     "course": "STAT110",
     "category": "exam",
     "source_id": "2022-Ord-Q3",

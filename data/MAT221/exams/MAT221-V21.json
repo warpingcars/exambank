@@ -1,0 +1,20 @@
+{
+  "course": "MAT221",
+  "term": "V",
+  "year": 2021,
+  "title": "Eksamen V21 – Diskret matematikk",
+  "topics": [
+    "Trær (isomorfiklasser, gradbetingelser)",
+    "Kromatiske tall for standardgrafer",
+    "Invertible elementer og ligninger i Z_16",
+    "φ(p^n)-formel og siste siffer i base 16",
+    "GCD via Euklid",
+    "Rekursjon + GF med ikke-homogen høyreside",
+    "Planaritet (K_{3,4}), bipartit, (semi)-Euler, Hamiltonsk",
+    "Kombinatorikk + IE-variant",
+    "SDR-eksempler"
+  ],
+  "format": "8 oppgaver; blandede korte resonnementer og beregninger.",
+  "content_paraphrase": "Klassifisering av trær med 5 noder og umulige gradmønstre. Kromatiske tall for K_n, K_{n,m} og sykluser. Inverse og kongruenser i Z_16; φ(p^n). Base-16 siste siffer. Euklid på konkrete tall. Lineær rekursjon + GF mot 2^n-kilde. Planaritetsvurdering via K_{3,4}; bipartitthet, (semi)-Euler, ikke-Hamilton. Telling med restriksjoner og IE. SDR-familier med/uten løsning.",
+  "lang": "no"
+}
