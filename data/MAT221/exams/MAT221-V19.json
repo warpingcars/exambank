@@ -1,0 +1,18 @@
+{
+  "course": "MAT221",
+  "term": "V",
+  "year": 2019,
+  "title": "Eksamen V19 – Diskret matematikk",
+  "topics": [
+    "Rekursjoner (lukkede former) og genererende funksjoner",
+    "Tallsystemer (binær↔desimal)",
+    "Eulers φ-funksjon og Eulers teorem",
+    "Spesialfamilier av grafer (S_{m,k}) – sammenheng/Hamilton/Euler/planar",
+    "Tallteori (gcd, Diofantiske ligninger)",
+    "Kombinatorikk (strikk-trekanter)",
+    "Gradsekvenser/realiserbarhet"
+  ],
+  "format": "7 oppgaver; vekt på rekursjon/GF og konstruktive grafspørsmål.",
+  "content_paraphrase": "Starter med eksplisitte løsninger av rekursjoner og tilhørende GF. Binær↔desimal. φ(100), φ(1000) og bruk av Eulers teorem til siste siffer. Graffamilien S_{m,k}: når er den sammenhengende, og hvilke klassiske egenskaper har den. GCD/Diofantine. Telleoppgaver på trekant-ramme. Sjekk av gradsekvenser, inkl. moteksempler.",
+  "lang": "no"
+}

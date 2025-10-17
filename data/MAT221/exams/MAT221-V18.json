@@ -1,0 +1,18 @@
+{
+  "course": "MAT221",
+  "term": "V",
+  "year": 2018,
+  "title": "Eksamen V18 – Diskret matematikk",
+  "topics": [
+    "Tallteori og φ(m)",
+    "Modular aritmetikk og Diofantiske ligninger",
+    "Grafteori (bipartitt, Hamilton/Euler, planaritet, K3,3)",
+    "SDR/Hall-intuisjon",
+    "Inklusjon–eksklusjon",
+    "Rekursjon og genererende funksjoner",
+    "Kombinatorikk (oppsett/turnering)"
+  ],
+  "format": "6 oppgaver; både regning og korte bevis; kalkulator tillatt iht. fakultetets regler.",
+  "content_paraphrase": "Klassisk miks: faktorisering/gcd, inverser i Z_n, Diofantiske ligninger; φ(m) og enkel anvendelse. Grafoppgaver om bipartitthet, Hamilton/Euler og planaritet (K3,3-argument). SDR-idé via enkel Hall-betingelse. IE-telleoppgave. Lineær rekursjon med GF. Kombinatorikk rundt gruppespill/paring.",
+  "lang": "no"
+}

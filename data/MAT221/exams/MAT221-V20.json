@@ -1,0 +1,19 @@
+{
+  "course": "MAT221",
+  "term": "V",
+  "year": 2020,
+  "title": "Eksamen V20 – Diskret matematikk",
+  "topics": [
+    "Tallteori (gcd/lcm, Diofantiske)",
+    "Minimalt utspennende tre (definisjon + algoritme)",
+    "Kombinatorikk på ord og IE",
+    "Grafteori (Eulerløype, kromatisk tall, Eulers formel)",
+    "SDR og Hall (M-alternerende stier)",
+    "Modular aritmetikk i Z_14",
+    "Rekursjoner og genererende funksjoner",
+    "Turneringsoppsett og blokk-design"
+  ],
+  "format": "8 oppgaver; bredde fra tallteori til design; flere ‘metodeforklar’-delspørsmål.",
+  "content_paraphrase": "GCD/LCM og Diofantine med parameterløsninger. MST med konkret vektet graf og algoritmevalg. Ord-telleoppgaver og IE-varianter. Grafegenskaper inkl. Euler-løyper, farging og bekreftelse av Eulers formel. Hall’s teorem anvendt med M-alternerende stier. Ligninger i Z_14 og φ(100). Lineære rekursjoner + GF. Turneringer og (v,k,λ)-design/STS.",
+  "lang": "no"
+}
